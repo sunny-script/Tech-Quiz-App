@@ -1,0 +1,16 @@
+{
+    "extends": "../tsconfig.json",
+    "compilerOptions": {
+      "types": ["cypress"],
+      "allowJs": true,
+      "outDir": "./dist"
+    },
+    "include": [
+      "**/*.ts",
+      "**/*.js"
+    ],
+    "exclude": [
+      "../node_modules",
+      "**/*.spec.ts"
+    ]
+  }
